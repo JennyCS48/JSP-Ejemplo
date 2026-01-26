@@ -18,5 +18,19 @@ public class RestClientConfig {
                 .baseUrl(productosBaseUrl)
                 .build();
     }
+/*
+    private ProductoRepository productoRepository;
 
+   
+    @Bean
+    public CreateProductoUseCase createProductoUseCase() {
+        // Añadimos en la llamada una instancia de nuestro MOCK.
+        return new CreateProductoUseCase(productoRepository);
+    }
+
+    @Bean
+    public CreateProductoService createProductoService() {
+        return new CreateProductoService(createProductoUseCase());
+    }
+*/
 }
